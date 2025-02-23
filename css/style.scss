@@ -1,0 +1,33 @@
+.container {
+  ul {
+    li {
+      background-color: aqua;
+      padding: 5px;
+      font-size: 16px;
+      position: relative;
+      margin: 5px;
+      button {
+        background-color: red;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 2px;
+      }
+    }
+    .finished {
+      background-color: gray;
+      padding: 5px;
+      font-size: 16px;
+      position: relative;
+      margin: 5px;
+      &::after {
+        content: "done";
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: greenyellow;
+        margin: 4px;
+      }
+    }
+  }
+}

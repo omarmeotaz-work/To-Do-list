@@ -1,0 +1,29 @@
+.container ul li {
+  background-color: aqua;
+  padding: 5px;
+  font-size: 16px;
+  position: relative;
+  margin: 5px;
+}
+.container ul li button {
+  background-color: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 2px;
+}
+.container ul .finished {
+  background-color: gray;
+  padding: 5px;
+  font-size: 16px;
+  position: relative;
+  margin: 5px;
+}
+.container ul .finished::after {
+  content: "done";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: greenyellow;
+  margin: 4px;
+}/*# sourceMappingURL=style.css.map */
