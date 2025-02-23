@@ -12,6 +12,11 @@
   top: 0;
   margin: 2px;
 }
+.container ul li .edit-btn {
+  background-color: orange;
+  position: absolute;
+  right: 30px;
+}
 .container ul .finished {
   background-color: gray;
   padding: 5px;
